@@ -1,7 +1,7 @@
 const axios = require('axios');
 const vscode = require('vscode');
 
-const apiKey = "Vg3ot5G372pp8o2lye9c0JbBVKE080dk";
+const securedKey = "Vg3ot5G372pp8o2lye9c0JbBVKE080dk";
 const externalUserId = "OKAYOKAY";
 
 async function submitQuery(sessionId, query) {
@@ -16,7 +16,7 @@ async function submitQuery(sessionId, query) {
             },
             {
                 headers: {
-                    apikey: apiKey,
+                    apikey: securedKey,
                 },
             }
         );
