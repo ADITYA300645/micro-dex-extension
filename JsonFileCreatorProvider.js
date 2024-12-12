@@ -37,7 +37,7 @@ class JsonFileCreatorProvider {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarthi AI</title>
+    <title>Micro-Dex AI</title>
     <style>
         * {
             margin: 0;
@@ -250,7 +250,7 @@ class JsonFileCreatorProvider {
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="logo">Sarthi AI</h1>
+            <h1 class="logo">Micro-Dex</h1>
             <p class="subtitle">
                 <span class="status-indicator"></span>
                 Your Intelligent Assistant
